@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body{
+        @apply box-border text-[0.6rem] m-0 p-0;
+    }
+    div{
+        @apply text-[0.75rem] leading-[14px];
+    }
+    ol{
+        @apply list-inside list-decimal my-1 ;
+
+    }
+    ul{
+        @apply list-inside list-disc my-1 ;
+    }
+    
+}

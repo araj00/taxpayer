@@ -1,4 +1,8 @@
 export const ROUTES = {
     Home:'/',
-    About:'/about'
+    Second:'/Second',
+    Third : '/Third',
+    Fourth:'/Fourth',
+    Fifth :  '/Fifth',
+    Sixth : '/Sixth'
 }

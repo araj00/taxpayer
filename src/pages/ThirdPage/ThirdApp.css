@@ -1,0 +1,15 @@
+.alphaNumeric{
+    list-style: lower-alpha;
+    list-style-position: inside;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr,td,th{
+    border: 1px solid #000;
+    vertical-align: top;
+    padding : 0 4px;
+    line-height: 1rem;
+}
