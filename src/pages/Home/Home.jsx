@@ -161,7 +161,7 @@ const Home = () => {
               <div className='flex border-y-2'>
 
                 <div className='pl-1 w-[170%]'>
-                  <label className='inline-block mb-2'><span className='text-ordered-list mr-1'>3</span>Check appropriate box for federal tax classification of the person whose name is entered on line 1. Check only one of the
+                  <label className='inline-block mb-1'><span className='text-ordered-list mr-1'>3</span>Check appropriate box for federal tax classification of the person whose name is entered on line 1. Check only one of the
                     following seven boxes. </label>
                   <FieldArray name="businessValues">
                     {({ fields }) => (
@@ -181,7 +181,7 @@ const Home = () => {
                           }
                           else if (index === 5) {
                             return (
-                              <div key={index} className='my-2'>
+                              <div key={index} className='my-1'>
                                 <label>
                                   <Field
                                     name="federal-tax-classification"

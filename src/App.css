@@ -3,6 +3,12 @@
     rotate: -180deg;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .input-textSize{
     width: 100%;
     outline: none;
